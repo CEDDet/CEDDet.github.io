@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Google Analytics 4 -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MCHHQLEFQ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MCHHQLEFQ4');
+</script>
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
+  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_conference_title" content="CONFERENCE_NAME">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>CEDDet: A Cloud–Edge Collaborative System for Real-Time Driver Distraction Detection in Low-Resource Scenarios</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/safe.png">
+  <link rel="apple-touch-icon" href="static/images/safe.png">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- More Works Dropdown -->
+  <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
+      <i class="fas fa-flask"></i>
+      More Works
+      <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>More Works from Our Lab</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="works-list">
+        <!-- TODO: Replace with your lab's related works -->
+        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+          <div class="work-info">
+            <!-- TODO: Replace with actual paper title -->
+            <h5>Paper Title 1</h5>
+            <!-- TODO: Replace with brief description -->
+            <p>Brief description of the work and its main contribution.</p>
+            <!-- TODO: Replace with venue and year -->
+            <span class="work-venue">Conference/Journal 2024</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <!-- TODO: Add more related works or remove extra items -->
+        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 2</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 3</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title">CEDDet: A Cloud–Edge Collaborative System for Real-Time Driver Distraction Detection in Low-Resource Scenarios</h1>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+
+        <div class="content has-text-justified" style="font-size: 1.5rem; line-height: 1.75;">
+          <p>
+            Driver distraction detection is critical to road safety. However, the real-world deployment of distraction detection models is often hindered by limited on-board computational resources. It is also constrained by the scarcity of labeled data. To address these challenges, we propose CEDDet, A Cloud-Edge collaborative system for real-time Driver Distraction Det}ection in low-resource scenarios. On the edge side, we design a lightweight distracted-frame mining module for key-frame selection. The selected frames are then uploaded to the cloud. In the cloud, we introduce an automated annotation pipeline that integrates a strong pose detector with a Vision-Language Model (VLM). It annotates the uploaded key frames, thus constructing a high-quality training dataset without any human involvement.  Using the automatically built dataset, CEDDet performs closed-loop iterative training to produce a lightweight object detector. The weights are periodically sent back to the edge for real-time inference, while large models remain cloud-only as offline auxiliary tools. Experiments show that CEDDet achieves good performance while meeting real-time device constraints. Even when the data distribution shifts, the lightweight object detector obtained via iterative closed loop training maintains stable and usable detection accuracy, demonstrating strong generalization and transferability.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End paper abstract -->
+
+
+<!-- Teaser video-->
+<!-- Teaser figure (static image + left-aligned caption like Abstract) -->
+<!-- Teaser figure: big image + abstract-style left/justified caption -->
+<section class="hero teaser">
+  <div class="hero-body">
+
+    <div class="container is-fullhd">
+      <figure style="max-width: 1800px; margin: 0 auto;">
+        <img
+          src="static/images/main2.png"
+          alt="Overview of the proposed CEDDet cloud-edge framework."
+          style="width: 100%; height: auto; display: block;"
+        />
+
+        <!-- caption：跟图同宽，不再用 max-desktop -->
+        <figcaption
+          style="
+            margin-top: 0.9rem;
+            font-size: 1.5rem;
+            line-height: 1.75;
+            color: #4a4a4a;
+            text-align: left;
+            text-align: justify;
+            text-justify: inter-word;
+          "
+        >
+          Overview of the proposed CEDDet cloud-edge framework for distracted driving detection.
+          The edge device monitors the in-cabin video and sends only key frames to the cloud.
+          In the cloud, strong detectors and a VLM automatically annotate these frames and train a lightweight detector.
+          The trained detector is then deployed back to the edge for real-time inference.
+        </figcaption>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Edge-based Distracted Frame Mining</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/gF_24_s1_2019-03-05T10;45;51+01;00_rgb_body_mining.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/gF_22_s2_2019-04-09T11;41;13+02;00_ir_body_mining.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">RGB Scenario: Real-time Detection Demo of the Edge-side YOLO11n Model</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/gF_23_s2_2019-03-04T16;09;26+01;00_rgb_body.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/gZ_35_s1_2019-04-09T15;47;04+02;00_rgb_body.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/gZ_37_s2_2019-04-08T15;45;15+02;00_rgb_body.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">IR Scenario: Real-time Detection Demo of the Edge-side YOLO11n Model</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/gF_24_s1_2019-03-05T10;45;51+01;00_ir_body.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/gZ_31_s2_2019-04-08T15;21;41+02;00_ir_body.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/gZ_35_s2_2019-04-09T12;50;14+02;00_ir_body.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </body>
+  </html>
