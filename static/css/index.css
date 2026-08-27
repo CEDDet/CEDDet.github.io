@@ -219,6 +219,29 @@ body {
   margin-left: 0.1em;
 }
 
+.publication-authors .orcid-link {
+  color: #a6ce39 !important;
+  display: inline-block;
+  font-size: 0.9em;
+  margin-left: 0.22rem;
+  vertical-align: 0.02em;
+}
+
+.publication-authors .orcid-link::after {
+  display: none;
+}
+
+.publication-authors .orcid-link:hover {
+  color: #7da21d !important;
+}
+
+.ieee-membership {
+  color: var(--text-secondary);
+  font-size: 0.72em;
+  font-style: italic;
+  font-weight: 400;
+}
+
 .author-details {
   color: var(--text-secondary);
   font-size: 0.95rem;
@@ -229,15 +252,6 @@ body {
 
 .affiliation-list p {
   margin-bottom: 0.25rem;
-}
-
-.corresponding-author {
-  margin: 1rem 0;
-}
-
-.corresponding-author a {
-  color: var(--primary-color);
-  font-weight: 600;
 }
 
 .funding-note {
@@ -804,4 +818,3 @@ a:focus {
     box-shadow: none !important;
   }
 }
-
