@@ -360,6 +360,114 @@ body {
   font-weight: 500;
 }
 
+
+/* Demo feature summaries */
+.demo-heading {
+  font-size: clamp(1.8rem, 3.3vw, 2.65rem);
+  line-height: 1.15;
+}
+
+.demo-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.demo-nav a {
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: var(--background-primary);
+  color: var(--primary-hover);
+  padding: 0.45rem 0.85rem;
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+  font-weight: 650;
+}
+
+.demo-nav a:hover {
+  border-color: var(--primary-color);
+}
+
+.demo-source,
+.demo-figure-caption {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.demo-features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.demo-features li {
+  border-left: 4px solid var(--primary-color);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  background: #eef4ff;
+  padding: 0.85rem 1.15rem;
+}
+
+.demo-features strong,
+.demo-lead {
+  font-size: clamp(1.2rem, 2.2vw, 1.55rem);
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+.demo-features span {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: clamp(1.08rem, 1.7vw, 1.25rem);
+  line-height: 1.45;
+}
+
+.demo-cue-inactive {
+  color: #166534;
+}
+
+.demo-cue-active {
+  color: #b91c1c;
+}
+
+.demo-output,
+.demo-link {
+  margin-top: 0.65rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.results-carousel .demo-caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+  margin-top: 0.65rem;
+  font-size: clamp(1.12rem, 1.8vw, 1.3rem);
+  line-height: 1.4;
+}
+
+.demo-link a,
+.demo-caption a {
+  color: var(--primary-hover);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.demo-caption a {
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .demo-features {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Pagination and Misc Improvements */
 .slider-pagination .slider-page {
   background: var(--primary-color);
