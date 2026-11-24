@@ -355,7 +355,7 @@
 <!-- Project overview -->
 <section class="section hero is-light demo-overview" aria-labelledby="demo-heading">
   <div class="container has-text-centered">
-    <h2 id="demo-heading" class="title demo-heading">How to Read the CEDDet Demo</h2>
+    <h2 id="demo-heading" class="title demo-heading">CEDDet Demo for Real-Time Driver Distraction Detection</h2>
     <nav class="demo-nav" aria-label="Explore the CEDDet demo">
       <a href="#edge-mining">Mining Cues</a>
       <a href="#rgb-detection">RGB Predictions</a>
@@ -438,7 +438,7 @@
       <ul class="demo-features">
         <li>
           <strong>Read the Box and Label</strong>
-          <span><b class="demo-cue-inactive">Green labels</b> mark predicted wheel holding. <b class="demo-cue-active">Red labels</b> mark other predicted behaviors. The number is the model’s confidence.</span>
+          <span><b class="demo-cue-inactive">Green labels</b> indicate normal driving. <b class="demo-cue-active">Red labels</b> indicate detected distraction. The number is the model’s confidence score.</span>
         </li>
       </ul>
       <div id="rgb-detection-carousel" class="carousel results-carousel">
@@ -485,7 +485,12 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title demo-heading">Local Detection on Infrared Video</h2>
-      <p class="demo-lead"><strong>Apply the same check in infrared (IR).</strong> Use the visible hand, object, and wheel contact to judge each labeled box. An unlabeled outline marks a localized hand.</p>
+      <ul class="demo-features">
+        <li>
+          <strong>Read the Box and Label</strong>
+          <span><b class="demo-cue-inactive">Green labels</b> indicate normal driving. <b class="demo-cue-active">Red labels</b> indicate detected distraction. The number is the model’s confidence score.</span>
+        </li>
+      </ul>
       <div id="ir-detection-carousel" class="carousel results-carousel">
         <div class="item item-video1">
           <video id="ir-output-1" aria-labelledby="ir-output-1-caption" controls muted loop playsinline preload="metadata">

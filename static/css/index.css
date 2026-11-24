@@ -412,8 +412,7 @@ body {
   padding: 0.85rem 1.15rem;
 }
 
-.demo-features strong,
-.demo-lead {
+.demo-features strong {
   font-size: clamp(1.2rem, 2.2vw, 1.55rem);
   line-height: 1.4;
   color: var(--text-primary);
@@ -432,6 +431,12 @@ body {
 
 .demo-cue-active {
   color: #b91c1c;
+}
+
+#rgb-detection .demo-features,
+#ir-detection .demo-features {
+  grid-template-columns: minmax(0, 1fr);
+  margin-inline: 1rem;
 }
 
 .demo-output,
@@ -823,6 +828,11 @@ code {
   .results-carousel .item {
     margin: 0.5rem;
     padding: 1rem;
+  }
+
+  #rgb-detection .demo-features,
+  #ir-detection .demo-features {
+    margin-inline: 0.5rem;
   }
   
   .teaser .hero-body {
